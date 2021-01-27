@@ -46,12 +46,12 @@ double pto_getY(Ponto *p){
 
 // setters: atribuem novos valores as coordenadas de um ponto 
 void pto_setX(Ponto *p, double x){
-    p->x;
+    p->x = x;
 }
 
 // setters: atribuem novos valores as coordenadas de um ponto
 void pto_setY(Ponto *p, double y){
-    p->y;
+    p->y = y;
 }
 
 // Retorna a distancia entre dois pontos
